@@ -1,2 +1,3 @@
-# tkmanx
-Repo for Tokt til Manx
+# Tokt til Manx
+
+Pico files for the **Tokt til Manx** website. 
