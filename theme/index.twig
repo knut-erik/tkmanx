@@ -21,7 +21,7 @@
 </head>
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
 
-    <div id="header">
+    <div id="header" class="backimg">
         <div class="container">
             <a id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
                 <span class="icon-menu" aria-hidden="true"></span>
@@ -30,6 +30,7 @@
             <h1>
                 <a href="{{ "index"|link }}">{{ site_title }}</a>
             </h1>
+            <h4>{{ config.sub_title }}</h4>
             <div id="nav" role="region" tabindex="-1">
                 <ul>
                     {% for page in pages if page.title and not page.hidden %}

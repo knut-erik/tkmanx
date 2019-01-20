@@ -63,30 +63,40 @@ body { display: flex; flex-direction: column; }
 
 /*** BASIC LAYOUT: HEADER ***/
 
-#header { background: #000000; }
+.backimg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('..');
+}
 
-#header h1 {
+#header { background-color: #000000;}
+
+#header h1 h4 {
     float: left;
     font-size: 2rem;
     margin: 0;
     padding: 1.5em 1em 1.5em 0;
 }
 #header h1 a, #header h1 a:hover { color: #fff; }
-
+#header h4 {color: lightGray;}
 #nav {
-    text-align: right;
-    padding: 3em 0;
+    text-align: center;
+    padding: 3em 0; 
+    
 }
 #nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 #nav ul li {
     display: inline-block;
     margin-left: 1em;
     padding: 0;
     font-weight: bold;
+   
 }
 
 #nav a, #nav-toggle { color: #33a5e3; }
@@ -190,7 +200,7 @@ p, hr, table, .table-responsive, ol, ul, dl, pre, blockquote, fieldset {
 }
 
 a {
-    color: #2EAE9B;
+    color: rgb(46, 76, 174);
     text-decoration: none;
     -webkit-transition: color .2s ease-in;
             transition: color .2s ease-in;
