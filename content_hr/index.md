@@ -11,16 +11,14 @@ Template: index
 
 **NB: VI HAR NÅDD MAKS ANTALL PÅMELDTE. MELDER DU DEG PÅ NÅ KOMMER DU PÅ VENTELISTE.**
 
-På venteliste : 40 personer - Oppdatert 9.oktober 2018
+På venteliste : **40 personer - Oppdatert 21.januar 2019**
 
-**FØLG DENNE LENKEN TIL PÅMELDINGSSKJEMA!**
-NB: En påmelding/ett skjema per deltaker!
+**[FØLG DENNE LENKEN TIL PÅMELDINGSSKJEMA!](https://goo.gl/forms/glA05tHhhWPP6AlU2)**
+NB: En påmelding/ett skjema per deltaker! Er dere flere som reiser sammen, så benyttes skjemaet en gang pr. deltaker.
 
-Er dere flere som reiser sammen, så benyttes skjemaet en gang pr. deltaker.
+[Du finner oss på vår Facebook - side](https://www.facebook.com/pg/gannhrmc/posts/).
 
-Du finner oss på vår Facebook - side - eller Facebook gruppen.
-
-For de som ikke har Facebook har vi også en Telegram gruppe [(telegram.org) - lenke](https://)
+For de som ikke har konto på Facebook, har vi også en Telegram gruppe [(telegram.org) - lenke](https://www.google.com/url?q=https%3A%2F%2Ft.me%2Fjoinchat%2FCakf4wycRf5xS2iKU3gLYw&sa=D&sntz=1&usg=AFQjCNGi112kTjWRxa30b6e3bzMabQyV0Q)
 
 ------
 
@@ -28,12 +26,10 @@ For de som ikke har Facebook har vi også en Telegram gruppe [(telegram.org) - l
 
 Holy Riders MC gjentar suksessen fra 2015 & 2017 og arrangerer ny tur til Isle of Man i august 2019.
 
-- Avgang Stavanger : Tirsdag 20.august kl.10.00.
-- Ankomst Stavanger : Fredag 30.august kl.15.00  - (2019)
+- Avgang Stavanger : Tirsdag 20.august.2019 kl.10.00
+- Ankomst Stavanger : Fredag 30.august.2019 kl.15.00
 
 Turen er i samarbeid med skoleskipet MS Gann. Først seiler vi til Londonderry (Nord-Irland) og får oss en MC-opplevelse der. Deretter går turen til Isle of Man hvor vi blir publikum til det som kalles verdens råeste gateløp. Etterpå kjører vi rundt på egne motorsykler og får betraktet øya fra salen. På hjemturen besøker vi Kirkwall (Orknøyene) for flere gode MC opplevelser.
-
-2017 turen ble utsolgt på 30 timer! Vær snar med påmelding. Dette blir en opplevelse for livet!
 
 ------
 
@@ -57,7 +53,7 @@ Pris for hele turen inkl. MC, Lugar, 3 måltider pr. dag.
 
 Det er mulig for tilreisende å overnatte på MS Gann f.o.m. Mandag 19.august kl.18.00. Ekstra overnatting koster 790,- NOK og betales direkte til Gann ved ombordstigning. Overnattingen inkluderer et lite kveldsmåltid og frokost.
  
-Send e-Post til : isleofman [at] holyriders [dot] no for spørsmål, eventuelt benytt vår [Facebook side (lenke)](https://).
+Send e-Post til : **isleofman [at] holyriders [dot] no** for spørsmål, eventuelt benytt vår [Facebook side (lenke)](https://www.facebook.com/pg/gannhrmc/posts/).
 
 ------
 
@@ -77,8 +73,8 @@ Send e-Post til : isleofman [at] holyriders [dot] no for spørsmål, eventuelt b
 
 ------
 
-# PÅMELDING
+# Påmelding
 
 Påmeldingen åpnet **4.april.2018 - kl. 12.00**
 
-For at du skal kunne være godt forberedt til påmeldingen, kan du lese igjennom spørsmålene du må besvare i registreringen her (PDF fil med spørsmålene).
+For at du skal kunne være godt forberedt til påmeldingen, kan du lese igjennom spørsmålene du må besvare i registreringen [her (PDF fil med spørsmålene)](https://drive.google.com/file/d/1OFhvyW5bAlsmxDPQebaYJdeiLF_en0Q9/view?usp=sharing).
