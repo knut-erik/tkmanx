@@ -9,18 +9,20 @@ Template: index
 
 # Tokt med Broken Chains JC - 2020
 
-- Avgang Stavanger : Fredag 5.juni.2020 kl.20.00
-- Ankomst Stavanger : Mandag 15.juni.2020 kl.15.00
+- Innlasting av motorsykler : Fredag 24.august.2020 kl.13.00
+- Avgang Stavanger : Fredag 24.august.2020 kl.16.00
+- Ankomst Stavanger : Mandag 4.september.2020 kl.15.00
 
-Turen er i samarbeid med skoleskipet MS Gann. På hjemturen besøker vi Kirkwall (Orknøyene) for flere gode MC opplevelser.
+Turen er i samarbeid med skoleskipet MS Gann. Skipet gjør 3 anløp underveis inkludert Douglas (Isle of Man), Stornoway (Hebridene UK), Kirwall (Orknøyene, UK).
 
 ------
 
 # ANLØP
 
-Det blir 2 anløp :
+Det blir 3 anløp :
 
-- Douglas - (Isle of Man) - 5 døgn
+- Stornoway - (Hebridene)
+- Douglas - (Isle of Man) - 4 døgn
 - Kirkwall - (Orknøyene) - ved hjem seilasen
 
 ------
