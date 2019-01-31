@@ -99,15 +99,19 @@ a {
 
     background: #1A1919;
     border-color: #FFFFFF;
-    padding-left: 26px;
-    padding-right: 26px;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
 }
 
 .TKHomePane {
-    border: none;
+
     background: #1A1919;
-    padding-left: 0px;
-    padding-right: 0px;
+    border-color: #FFFFFF;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+
+    /*padding-left: 0px;
+    padding-right: 0px;*/
 }
 
 .TKContainerFluid {
