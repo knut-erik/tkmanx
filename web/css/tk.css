@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Cousine');
+
+@media print {
+    html, body {
+        display: none;  /* hide whole page */
+    }
+}
+
+@font-face {    
+    font-family: 'Cousine', monospace;
+    src: url('https://fonts.googleapis.com/css?family=Cousine');
+}
+
+image {
+    pointer-events: none;
+}
+
+body {
+    padding-top: 60px;
+}
+
+@media (max-width:800px) {
+    .carousel {
+        height: 30vh;
+    }
+    .carousel .item {
+        height: 30vh;
+        pointer-events: none;
+    }
+}
+
+
+@media (min-width:800px) {
+
+    .carousel {
+        height: 500px;
+    }
+
+    .carousel .item {
+        height: 500px;
+        pointer-events: none;
+    }
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li, a {
+    font-family: Cousine !important;
+    color: #FFFFFF !important;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    color: lightsalmon !important;
+}
+
+.TKBackground {
+    background: #1A1919;
+}
+
+.TKFont {
+    font-family: Cousine !important;
+    color: #FFFFFF !important;
+    -webkit-font-smoothing: antialiased;
+}
+
+.TKMenuText {
+    font-family: Cousine !important;
+    color: #FFFFFF !important;
+    -webkit-font-smoothing: antialiased;
+}
+
+.TKChapterFont {
+    -webkit-font-smoothing: antialiased;
+}
+
+.TKText {
+    padding-top: 0.5vw;
+    -webkit-font-smoothing: antialiased;
+}
+
+.TKNorway {
+    display: block;
+    pointer-events: none;
+}
+
+.TKBanner {
+    display: block;
+    pointer-events: none;
+}
+
+.TKBackNorway {
+    opacity: 0.5;
+    margin-top: 18%;
+    pointer-events: none;
+}
+
+.TKPanel {
+
+    background: #1A1919;
+    border-color: #FFFFFF;
+    padding-left: 26px;
+    padding-right: 26px;
+}
+
+.TKHomePane {
+    border: none;
+    background: #1A1919;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.TKContainerFluid {
+   padding-left: 0px;
+   padding-right: 0px;
+}
+
+.TKFooterText {
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+
+@media (min-width:768px) {
+
+    .TKChapterBorder {
+
+        border-right: 1px solid #FFFFFF;
+
+    }
+}
+
+/** Zoom gallery or images **/
+ul.gallery{
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.zoom {
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+    cursor: -webkit-zoom-in;
+    cursor: -moz-zoom-in;
+    cursor: zoom-in;
+}
+
+.zoom:hover,
+.zoom:active,
+.zoom:focus {
+    /**adjust scale to desired size,
+    add browser prefixes**/
+    -ms-transform: scale(2.3);
+    -moz-transform: scale(2.3);
+    -webkit-transform: scale(2.3);
+    -o-transform: scale(2.3);
+    -webkit-transform-origin: top left;
+    -moz-transform-origin: top left;
+    -ms-transform-origin: top left;
+    -o-transform-origin: top left;
+    transform-origin: top left;
+    transform: scale(2.3);
+    position: relative;
+    z-index:100;
+}
+
+/**To keep upscaled images visible on mobile,
+increase left & right margins a bit**/
+@media only screen and (max-width: 768px) {
+    ul.gallery {
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
+
+    /**TIP: Easy escape for touch screens,
+    give gallery's parent container a cursor: pointer.**/
+    .DivName {cursor: pointer}
+}
