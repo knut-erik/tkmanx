@@ -79,15 +79,11 @@ a {
     -webkit-font-smoothing: antialiased;
 }
 
-.TKNorway {
-    display: block;
-    pointer-events: none;
+.TKBanner {    
+    padding: 0px;
+    padding-bottom: 0.5em;
 }
 
-.TKBanner {
-    display: block;
-    pointer-events: none;
-}
 
 .TKBackNorway {
     opacity: 0.5;
