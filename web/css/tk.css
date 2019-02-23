@@ -84,6 +84,45 @@ a {
     padding-bottom: 0.5em;
 }
 
+.TKBannerText {
+    padding: 0px;
+    padding-bottom: 0px;
+    position: absolute;
+    width: 100%;
+    height: 60%;    
+    top: 20%;
+    font-size: 420%;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000000;
+    color: #ffa07a !important;
+    text-align: center;    
+    font-weight: bold;
+    /*background-color: rgba(239, 245, 239, 0.4);*/
+    
+}
+
+/** iPad and such **/
+@media (max-width:812px) {
+
+    .TKBannerText {
+        font-size: 260%;
+        -webkit-text-stroke-width: 1px;
+        top: 20%;
+    }
+}
+/** Small phones like iPhone6/7/8 **/
+@media (max-width:414px) {
+
+    .TKBannerText {
+        font-size: 100%;
+        -webkit-text-stroke-width: 0.5px;    
+        top: 25%;
+    }
+
+}
+
+
+
 
 .TKBackNorway {
     opacity: 0.5;
@@ -126,7 +165,6 @@ a {
     .TKChapterBorder {
 
         border-right: 1px solid #FFFFFF;
-
     }
 }
 
