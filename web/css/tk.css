@@ -7,7 +7,7 @@
 }
 
 @font-face {    
-    font-family: 'Cousine', monospace;
+    font-family: 'Cousine', monospace;    
     src: url('https://fonts.googleapis.com/css?family=Cousine');
 }
 
@@ -93,8 +93,8 @@ a {
     top: 20%;
     font-size: 420%;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #000000;
-    color: #ffa07a !important;
+    -webkit-text-stroke-color: #ffffff;
+    color: #000000 !important;
     text-align: center;    
     font-weight: bold;
     /*background-color: rgba(239, 245, 239, 0.4);*/
