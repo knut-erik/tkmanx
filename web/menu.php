@@ -12,7 +12,6 @@
             <ul class="nav navbar-nav TKFont TKMenuText">
                 <li><a class="TKMenuText" data-toggle="tab" href="#2019">2019</a></li>
                 <li><a class="TKMenuText" data-toggle="tab" href="#2020">2020</a></li>
-                <!-- <li><a class="CQMenuText hidden-xs" data-toggle="tab" href="#gallery">Gallery</a></li> -->
                 <li><a class="TKMenuText" data-toggle="tab" href="#links">Lenker</a></li>
             </ul>
         </div>
