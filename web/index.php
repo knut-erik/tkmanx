@@ -11,7 +11,6 @@
                 <div class="tab-content">
                     <!-- TABS -->
                     <?php include "tab_home.php";?>
-                    <?php include "tab_2019hr.php";?>
                     <?php include "tab_2020bc.php";?>
                     <?php include "tab_links.php";?>
                 </div>
