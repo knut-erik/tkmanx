@@ -21,6 +21,18 @@ body {
     padding-right: 0.2em;
 }
 
+td,th {
+
+    padding-top: 0.4em;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+
 @media (max-width:800px) {
     .carousel {
         height: 30vh;
@@ -44,7 +56,7 @@ body {
     }
 }
 
-h1, h2, h3, h4, h5, h6, p, ul, li, a {
+h1, h2, h3, h4, h5, h6, p, ul, li, a, table, td, tr, thead {
     font-family: Cousine !important;
     color: #FFFFFF !important;
     -webkit-font-smoothing: antialiased;
