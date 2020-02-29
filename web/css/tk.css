@@ -104,21 +104,19 @@ a {
     height: 60%;    
     top: 20%;
     font-size: 420%;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #ffffff;
-    color: #000000 !important;
-    text-align: center;    
-    font-weight: bold;
-    /*background-color: rgba(239, 245, 239, 0.4);*/
-    
+    -webkit-text-stroke-width: 0.02em;
+    -webkit-text-stroke-color: #000000;
+    color: #FFFFFF !important;
+    text-align: center;        
 }
+
 
 /** iPad and such **/
 @media (max-width:812px) {
 
     .TKBannerText {
         font-size: 260%;
-        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-width: 0.02em;
         top: 20%;
     }
 }
@@ -126,20 +124,11 @@ a {
 @media (max-width:414px) {
 
     .TKBannerText {
-        font-size: 100%;
-        -webkit-text-stroke-width: 0.5px;    
+        font-size: 140%;
+        -webkit-text-stroke-width: 0.02em;   
         top: 25%;
     }
 
-}
-
-
-
-
-.TKBackNorway {
-    opacity: 0.5;
-    margin-top: 18%;
-    pointer-events: none;
 }
 
 .TKPanel {

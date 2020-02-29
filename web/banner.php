@@ -1,5 +1,5 @@
 <div class="container-fluid TKBanner" >
-    <div class="row">
+    <div class="row ">
         <div class="col-xs-12"> 
             <div class="TKFont TKBannerText">
                 Tokt til<br/>Isle of Man<br/>med MS Gann
