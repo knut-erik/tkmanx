@@ -3,6 +3,11 @@ const assets = [
   "/css/tk.css",
   "/img/2019_map.jpg",
   "/img/tkmanx_header.jpg",
+  "/md/home.md",
+  "/md/links.md",
+  "/md/2020_paamelding.md",
+  "/md/2020_betingelser.md",
+  "/md/2020bc.md",
 ]
 
 self.addEventListener("install", installEvent => {
