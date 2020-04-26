@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="vinterferd">
     <meta name="description" content="Tokt til Isle of Man med MS Gann">
-    <meta name="keywords" content="MS Gann, Tokt til Isle of Man, Manxx">
+    <meta name="keywords" content="MS Gann, Tokt til Isle of Man, Manx">
     <title>Tokt til Isle of Man</title>
+
+    <link rel="manifest" href="manifest.json" >
 
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <!-- Latest compiled and minified CSS -->
