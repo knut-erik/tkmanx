@@ -32,10 +32,10 @@ workbox.routing.registerRoute(
     cacheName: 'md-cache',
     plugins: [
       new workbox.expiration.ExpirationPlugin({
-        // Cache only 20 images.
-        maxEntries: 30,
-        // Cache for a maximum of 3 days.
-        maxAgeSeconds: 3 * 24 * 60 * 60,
+        // Cache only 20 files.
+        maxEntries: 20,
+        // Cache for a maximum of 1 days.
+        maxAgeSeconds: 1 * 24 * 60 * 60,
       })
     ],
   })
