@@ -1,6 +1,4 @@
 <?php include './lib/tkhelper.php' ?>
-<?php include './lib/Parsedown.php' ?>
-<?php $Parsedown = new Parsedown(); ?>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
