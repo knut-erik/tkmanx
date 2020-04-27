@@ -11,10 +11,15 @@
         <div class="row">
             <div class="col-sm-12 TKContainerFluid">
                 <div class="tab-content">
-                    <!-- TABS -->
-                    <?php include "tab_home.php";?>
-                    <?php include "tab_2020bc.php";?>
-                    <?php include "tab_links.php";?>
+                  
+                    <!-- MAIN CONTENT TAB -->
+                    <div class="tab-pane fade in active TKPanel">
+                      <div class="panel panel-default TKPanel">
+                          <div id="main-content" class="panel-body TKPanel"></div>
+                      </div>
+                    </div>
+                    
+                    
                 </div>
             </div>
         </div>
@@ -30,7 +35,7 @@
 
 
 <script>
- populateMD();
+ populateHome();
 </script>
 
 <script>

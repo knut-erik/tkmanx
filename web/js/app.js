@@ -12,7 +12,7 @@ if ('serviceWorker' in navigator) {
   });
 }
 
-function populateHTML(url, divID){
+function populateHTML(url, divID, append){
 
     var target = document.getElementById(divID);
     
@@ -21,23 +21,36 @@ function populateHTML(url, divID){
       type: "GET",
       dataType: "text",
       success: function (results) {
-        var html = converter.makeHtml(results);
-        target.innerHTML = html;
-        //console.log(html);
-      }
+          var html = converter.makeHtml(results);
+          
+          if(append){
+            target.innerHTML = target.innerHTML + html;
+          }else {
+            target.innerHTML = html;
+          }
+          //console.log(html);
+      },
+      async: false
     });
   
 }
 
 
-function populateMD(){
-  
-  populateHTML("/md/2020_paamelding.md","2020paamelding");
-  populateHTML("/md/2020_paamelding.md","info_panel");
-  populateHTML("/md/home.md","home_panel");
-  populateHTML("/md/2020_betingelser.md","bc_betingelser");
-  populateHTML("/md/2020bc.md","2020bc");
-  populateHTML("/md/links.md","linksmd");
-  
-  
+function populateHome() {
+  populateHTML("/md/2020_paamelding.md","main-content",false);
+  populateHTML("/md/home.md","main-content",true);
 }
+
+function populateLinks() {
+  populateHTML("/md/links.md","main-content", false);
+}
+
+function populateBC() {
+  populateHTML("/md/2020_paamelding.md","main-content", false);
+  populateHTML("/md/2020bc.md","main-content", true);
+  populateHTML("/md/2020_betingelser.md","main-content",true);
+  
+
+}
+
+
