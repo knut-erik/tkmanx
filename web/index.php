@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <?php include 'header.php';?>
+    
     <body class="TKBackground" id="home-page">
+    
     <?php include "menu.php";?>
-    <?php include "banner.php";?>    
+    <?php include "banner.php";?>
 
     <div class="container-fluid TKContainerFluid">
         <div class="row">
@@ -17,8 +19,20 @@
             </div>
         </div>
     </div>
-    <?php include 'footer.php';?>
-    </body>
+
+    <div class="row">
+     <div class="col-md-12">
+        <h4 class="TKFont TKFooterText">Crafted by dataKnut</h4>
+     </div>
+    </div>
+
+<script>
+    //var converter = new showdown.Converter(),
+    //text      = '# hello, markdown!',
+    //html      = converter.makeHtml(text);
+    //console.log(html);
+</script>
+</body>
 
 <script>
     // make the menu collaps after selecting a menu item.
