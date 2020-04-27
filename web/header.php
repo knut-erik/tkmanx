@@ -31,6 +31,7 @@
     </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
 
     <?php
     //Get our own style sheet into the header.

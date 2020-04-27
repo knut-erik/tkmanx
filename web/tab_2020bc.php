@@ -1,16 +1,13 @@
 <div id="2020" class="tab-pane fade TKPanel">
     <div class="panel panel-default TKPanel">
-        <div class="panel-body TKPanel">
-            <?php echo $Parsedown->text(file_get_contents('./md/2020_paamelding.md'));  ?>
+        <div id="2020paamelding" class="panel-body TKPanel">
         </div>
     </div><div class="panel panel-default TKPanel">
-        <div class="panel-body TKPanel">
-            <?php echo $Parsedown->text(file_get_contents('./md/2020bc.md'));  ?>
+        <div id="2020bc" class="panel-body TKPanel">
         </div>
     </div>
     <div class="panel panel-default TKPanel">
-        <div class="panel-body TKPanel">
-            <?php echo $Parsedown->text(file_get_contents('./md/2020_betingelser.md'));  ?>
+        <div id="bc_betingelser" class="panel-body TKPanel">
         </div>
     </div>
 </div>

@@ -26,13 +26,12 @@
      </div>
     </div>
 
-<script>
-    //var converter = new showdown.Converter(),
-    //text      = '# hello, markdown!',
-    //html      = converter.makeHtml(text);
-    //console.log(html);
-</script>
 </body>
+
+
+<script>
+ populateMD();
+</script>
 
 <script>
     // make the menu collaps after selecting a menu item.
@@ -43,6 +42,6 @@
     });
 </script>
 
-<script src="js/app.js"></script>
+
 
 </html>
