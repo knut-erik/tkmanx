@@ -31,6 +31,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js" crossorigin="anonymous"></script>
     <script src="js/app.js"></script>
 
+    <link rel="apple-touch-icon" href="/img/icon_512.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/icon_152.png"> <!-- iPad -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/icon_192.png"> <!-- iPhone retina -->
+    <link rel="apple-touch-icon" sizes="167x167" href="/img/icon_192.png"> <!-- iPad retina -->
+
+
     <?php
     //Get our own style sheet into the header.
     $tkHelper = new TKHelper();
