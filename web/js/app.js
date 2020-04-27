@@ -1,5 +1,8 @@
 
+
+//showdown - used to convert .md files to HTML
 var converter = new showdown.Converter();
+converter.setOption('tables', 'true');
 
 // Check that service workers are supported
 if ('serviceWorker' in navigator) {
