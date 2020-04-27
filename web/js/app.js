@@ -37,7 +37,7 @@ function populateMD(){
   populateHTML("/md/home.md","home_panel");
   populateHTML("/md/2020_betingelser.md","bc_betingelser");
   populateHTML("/md/2020bc.md","2020bc");
-  populateHTML("/md/links.md","links");
+  populateHTML("/md/links.md","linksmd");
   
   
 }
