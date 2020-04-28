@@ -12,6 +12,7 @@ if ('serviceWorker' in navigator) {
   });
 }
 
+
 function populateHTML(url, divID, append){
 
     var target = document.getElementById(divID);
@@ -21,6 +22,8 @@ function populateHTML(url, divID, append){
       type: "GET",
       dataType: "text",
       success: function (results) {
+          
+          //Convert the MD file which is the result, to HTML
           var html = converter.makeHtml(results);
           
           if(append){

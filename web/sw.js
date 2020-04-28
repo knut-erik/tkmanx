@@ -19,7 +19,7 @@ workbox.routing.registerRoute(
   // Use cache but update in the background.
   new workbox.strategies.StaleWhileRevalidate({
     // Use a custom cache name.
-    cacheName: 'css-cache-v2',
+    cacheName: 'css-cache-v3',
   })
 );
 
@@ -29,7 +29,7 @@ workbox.routing.registerRoute(
   // Use the cache if it's available.
   new workbox.strategies.CacheFirst({
     // Use a custom cache name.
-    cacheName: 'md-cache-v2',
+    cacheName: 'md-cache-v3',
     plugins: [
       new workbox.expiration.ExpirationPlugin({
         // Cache only 20 files.
@@ -48,7 +48,7 @@ workbox.routing.registerRoute(
   // Use the cache if it's available.
   new workbox.strategies.CacheFirst({
     // Use a custom cache name.
-    cacheName: 'image-cache-v2',
+    cacheName: 'image-cache-v3',
     plugins: [
       new workbox.expiration.ExpirationPlugin({
         // Cache only 20 images.
