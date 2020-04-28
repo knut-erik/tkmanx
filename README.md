@@ -1,8 +1,7 @@
 # Tokt til Manx
 
-PHP files for the **Tokt til Manx** website. 
-
-A small website with information related to trips to Isle of Man (Manx).
+Website with information related to organised tours to Isle of Man (Manx), Manx Classic TT race and festival.
 The tours is in collaboration with MS Gann, a schoolship for educating sailors - mechanical and general ship crew.
 
-The site is hosted on [toktmanx.no](https://toktmanx.no), which consits of php files converting markdown files to content.
+The site is hosted on [toktmanx.no](https://toktmanx.no).
+
