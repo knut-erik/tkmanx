@@ -4,9 +4,9 @@
 
 ### MS Gann og Broken Chains JC beklager, men desverre er det lite vi får gjort med situasjonen.
 
-### Vi har laget en link til et skjema for å kreve tilbakebetaling av depositum: [Lenke her](https://www.gann.no/cruise/depositum-tilbakebetaling-isle-of-man-2020). 
+### Det er laget et skjema for å kreve tilbakebetaling av depositum. Lenke til skjemaet vil bli sendt til de påmeldte i egen e-post, da det ikke kan ligge åpent offentlig. Ved bruk av skjemaet husk at kontonummer må være koblet til navn og adresse til påmeldt person.
 
-### Kontonummer må være koblet til navn og adresse til påmeldt person. Vi ønsker å takke alle påmeldte og håper vi kan få til en ny tur ved en senere anledning
+### Vi ønsker å takke alle påmeldte og håper vi kan få til en ny tur ved en senere anledning.
 
 #### Mvh
 #### Odd Rune Dahlslier
