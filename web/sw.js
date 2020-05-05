@@ -5,6 +5,7 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox
 //import {CacheFirst, StaleWhileRevalidate} from 'workbox-strategies';
 //import {ExpirationPlugin} from 'workbox-expiration';
 
+let version = "1.03";
 
 if (workbox) {
   console.log(`Workbox is loaded`);
@@ -19,7 +20,7 @@ workbox.routing.registerRoute(
   // Use cache but update in the background.
   new workbox.strategies.StaleWhileRevalidate({
     // Use a custom cache name.
-    cacheName: 'css-cache-v3',
+    cacheName: 'css-cache-v' + version,
   })
 );
 
@@ -29,7 +30,7 @@ workbox.routing.registerRoute(
   // Use the cache if it's available.
   new workbox.strategies.CacheFirst({
     // Use a custom cache name.
-    cacheName: 'md-cache-v3',
+    cacheName: 'md-cache-v' + version,
     plugins: [
       new workbox.expiration.ExpirationPlugin({
         // Cache only 20 files.
@@ -48,7 +49,7 @@ workbox.routing.registerRoute(
   // Use the cache if it's available.
   new workbox.strategies.CacheFirst({
     // Use a custom cache name.
-    cacheName: 'image-cache-v3',
+    cacheName: 'image-cache-v' + version,
     plugins: [
       new workbox.expiration.ExpirationPlugin({
         // Cache only 20 images.

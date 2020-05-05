@@ -40,8 +40,8 @@ function populateHTML(url, divID, append){
 
 
 function populateHome() {
-  populateHTML("/md/2020_paamelding.md","main-content",false);
-  populateHTML("/md/home.md","main-content",true);
+  //populateHTML("/md/2020_paamelding.md","main-content",false);
+  populateHTML("/md/home.md","main-content",false);
 }
 
 function populateLinks() {

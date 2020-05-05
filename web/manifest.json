@@ -1,8 +1,11 @@
 {
   "name": "Tokt til Manx",
   "short_name": "ToktManx",
-  "start_url": ".",
+  "start_url": "/index.html",
   "display": "standalone",
+  "scope": ".",
+  "dir": "ltr",
+  "orientation": "portrait-primary",
   "background_color": "#1A1919",
   "theme_color": "#1A1919",
   "icons": [
