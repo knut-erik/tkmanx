@@ -1,5 +1,13 @@
 # Isle of Man Classic TT 2020 AVLYST!
 
-Da COVID-19 situasjonen rammer oss alle, har også arrangøren av _Classic TT_ besluttet å avlyse 2020 løpene og festivalen.  [Lenke til Classic TT sin melding.](https://www.iomttraces.com/classic/)
+## Arrangøren av _Classic TT_ har besluttet å avlyse 2020 løpene og det er nå ingen muligheter til å gjennomføre vår tur. [Lenke til Classic TT sin melding.](https://www.iomttraces.com/classic/)
 
-Mer informasjon fra arrangøren (Broken Chains JC) av 2020 turen med Gann kommer senere.
+### MS Gann og BrokenChainsJC beklager, men desverre er det lite vi får gjort med situasjonen.
+
+### Vi har laget en link til et skjema for å kreve tilbakebetaling av depositum: [Lenke her](https://www.gann.no/cruise/depositum-tilbakebetaling-isle-of-man-2020). 
+
+### Kontonummer må være koblet til navn og adresse til påmeldt person. Vi ønsker å takke alle påmeldte og håper vi kan få til en ny tur ved en senere anledning
+
+#### Mvh
+#### Odd Rune Dahlslier
+#### BrokenChainsJC
