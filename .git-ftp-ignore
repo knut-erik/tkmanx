@@ -1,5 +1,5 @@
 .gitignore
 .git-ftp-ignore
-.github
-.media
+.github/*
+media/*
 README.md
