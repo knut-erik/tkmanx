@@ -1,4 +1,4 @@
-![Tokt Til Manx Deploy](https://github.com/knut-erik/tkmanx/workflows/Publish%20ToktManx/badge.svg)
+![Deploy to Server](https://github.com/knut-erik/tkmanx/workflows/Publish%20ToktManx/badge.svg)
 
 # Tokt til Manx
 
