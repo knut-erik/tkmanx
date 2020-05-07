@@ -1,6 +1,4 @@
-
-
-//showdown - used to convert .md files to HTML
+//Showdown - used to convert .md files to HTML
 var converter = new showdown.Converter();
 converter.setOption('tables', 'true');
 
@@ -16,26 +14,32 @@ if ('serviceWorker' in navigator) {
 function populateHTML(url, divID, append){
 
     var target = document.getElementById(divID);
+
+       
+    fetch(url)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.blob();
+      })
+      .then(myBlob => {
+        //myImage.src = URL.createObjectURL(myBlob);
+        myBlob.text().then( (text) => {
+            //Convert the MD file which is the result, to HTML
+            var html = converter.makeHtml(text);
+            if(append){
+                target.innerHTML = target.innerHTML + html;
+              }else {
+                target.innerHTML = html;
+              }
+        });
+        
+      })
+      .catch(error => {
+        console.error('There has been a problem with your fetch operation:', error);
+      });
     
-    $.ajax({
-      url: url,
-      type: "GET",
-      dataType: "text",
-      success: function (results) {
-          
-          //Convert the MD file which is the result, to HTML
-          var html = converter.makeHtml(results);
-          
-          if(append){
-            target.innerHTML = target.innerHTML + html;
-          }else {
-            target.innerHTML = html;
-          }
-          //console.log(html);
-      },
-      async: false
-    });
-  
 }
 
 
@@ -55,5 +59,3 @@ function populateBC() {
   
 
 }
-
-
