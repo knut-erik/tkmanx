@@ -9,5 +9,4 @@
 ### Vi ønsker å takke alle påmeldte og håper vi kan få til en ny tur ved en senere anledning.
 
 #### Mvh
-#### Odd Rune Dahlslier
 #### Broken Chains JC
