@@ -15,7 +15,7 @@ function populateHTML(url, divID, append){
 
     var target = document.getElementById(divID);
 
-       
+/**       
     fetch(url,{
           method: 'GET',
           headers: {
@@ -45,6 +45,25 @@ function populateHTML(url, divID, append){
       .catch(error => {
         console.error('There has been a problem with your fetch operation:', error);
       });
+**/      
+        $.ajax({
+          url: url,
+          type: "GET",
+          dataType: "text",
+          success: function (results) {
+
+              //Convert the MD file which is the result, to HTML
+              var html = converter.makeHtml(results);
+
+              if(append){
+                target.innerHTML = target.innerHTML + html;
+              }else {
+                target.innerHTML = html;
+              }
+              //console.log(html);
+          },
+          async: false
+        });
     
 }
 
