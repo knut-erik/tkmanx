@@ -16,7 +16,13 @@ function populateHTML(url, divID, append){
     var target = document.getElementById(divID);
 
        
-    fetch(url)
+    fetch(url,{
+          method: 'GET',
+          headers: {
+            'Content-Type': 'text/html'
+          },
+          mode: 'cors'
+        })
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
