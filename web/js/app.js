@@ -69,18 +69,19 @@ function populateHTML(url, divID, append){
 
 
 function populateHome() {
-  //populateHTML("/md/2020_paamelding.md","main-content",false);
+  //populateHTML("/md/2021_paamelding.md","main-content",false);
   populateHTML("/md/home.md","main-content",false);
+  //populateHR();
 }
 
 function populateLinks() {
   populateHTML("/md/links.md","main-content", false);
 }
 
-function populateBC() {
-  populateHTML("/md/2020_paamelding.md","main-content", false);
-  populateHTML("/md/2020bc.md","main-content", true);
-  populateHTML("/md/2020_betingelser.md","main-content",true);
+function populateHR() {
+  //populateHTML("/md/2021_paamelding.md","main-content", false);
+  populateHTML("/md/2021_hr.md","main-content", false);
+  populateHTML("/md/2021_betingelser.md","main-content",true);
   
 
 }
