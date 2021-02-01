@@ -4,3 +4,5 @@
 Holy Riders MC gjentar suksessen fra 2015, -17 og -19!
 
 Vi arrangerer ny tur til Isle of Man i 2021. Mer informasjon kommer i løpet av februar.
+
+For spørsmål send oss en e-Post : 2021[at]toktmanx[dot]no
