@@ -1,11 +1,6 @@
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
-//import {precaching} from 'workbox-precaching';
-//import {registerRoute} from 'workbox-routing';
-//import {BackgroundSyncPlugin} from 'workbox-background-sync';
-//import {CacheFirst, StaleWhileRevalidate} from 'workbox-strategies';
-//import {ExpirationPlugin} from 'workbox-expiration';
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.1.0/workbox-sw.js');
 
-let version = "1.09";
+let version = "1.22";
 
 if (workbox) {
   console.log(`Workbox is loaded`);
@@ -24,38 +19,39 @@ workbox.routing.registerRoute(
   })
 );
 
+/*
 workbox.routing.registerRoute(
   // Cache markdown files.
   /\.md$/,
   // Use the cache if it's available.
-  new workbox.strategies.CacheFirst({
+  new workbox.strategies.StaleWhileRevalidate({
     // Use a custom cache name.
     cacheName: 'tk-md-cache-v' + version,
     plugins: [
       new workbox.expiration.ExpirationPlugin({
         // Cache only 20 files.
-        maxEntries: 20,
+        maxEntries: 10,
         // Cache for a maximum of 1 days.
         maxAgeSeconds: 1 * 24 * 60 * 60,
       })
     ],
   })
 );
-
+*/
 
 workbox.routing.registerRoute(
   // Cache image files.
   /\.(?:png|jpg|jpeg|svg|gif)$/,
   // Use the cache if it's available.
-  new workbox.strategies.CacheFirst({
+  new workbox.strategies.StaleWhileRevalidate({
     // Use a custom cache name.
     cacheName: 'tk-image-cache-v' + version,
     plugins: [
       new workbox.expiration.ExpirationPlugin({
         // Cache only 20 images.
-        maxEntries: 30,
+        maxEntries: 10,
         // Cache for a maximum of a week.
-        maxAgeSeconds: 7 * 24 * 60 * 60,
+        maxAgeSeconds: 1 * 24 * 60 * 60,
       })
     ],
   })

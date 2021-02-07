@@ -15,63 +15,31 @@ function populateHTML(url, divID, append){
 
     var target = document.getElementById(divID);
 
-/**       
-    fetch(url,{
-          method: 'GET',
-          headers: {
-            'Content-Type': 'text/html'
-          },
-          mode: 'cors'
-        })
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
-        return response.blob();
-      })
-      .then(myBlob => {
-        //myImage.src = URL.createObjectURL(myBlob);
-        myBlob.text().then( (text) => {
-            //Convert the MD file which is the result, to HTML
-            var html = converter.makeHtml(text);
-            if(append){
-                target.innerHTML = target.innerHTML + html;
-              }else {
-                target.innerHTML = html;
-              }
-        });
-        
-      })
-      .catch(error => {
-        console.error('There has been a problem with your fetch operation:', error);
-      });
-**/      
-        $.ajax({
-          url: url,
-          type: "GET",
-          dataType: "text",
-          success: function (results) {
+        var result = false;
+        $.get(url).done(function(awesome_data){
+            result = awesome_data;
 
-              //Convert the MD file which is the result, to HTML
-              var html = converter.makeHtml(results);
+            if(result){
+                  //Convert the MD file which is the result, to HTML
+                  var html = converter.makeHtml(result);
 
-              if(append){
-                target.innerHTML = target.innerHTML + html;
-              }else {
-                target.innerHTML = html;
-              }
-              //console.log(html);
-          },
-          async: false
+                  if(append){
+                    target.innerHTML = target.innerHTML + html;
+                  }else {
+                    target.innerHTML = html;
+                  }
+                  //console.log(html);
+            }
         });
-    
+
+
 }
 
 
 function populateHome() {
   //populateHTML("/md/2021_paamelding.md","main-content",false);
-  populateHTML("/md/home.md","main-content",false);
-  //populateHR();
+  //populateHTML("/md/home.md","main-content",false);
+  populateHR();
 }
 
 function populateLinks() {
