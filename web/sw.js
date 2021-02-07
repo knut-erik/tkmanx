@@ -1,6 +1,6 @@
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.1.0/workbox-sw.js');
 
-let version = "1.22";
+let version = "1.25";
 
 if (workbox) {
   console.log(`Workbox is loaded`);
@@ -19,7 +19,7 @@ workbox.routing.registerRoute(
   })
 );
 
-/*
+
 workbox.routing.registerRoute(
   // Cache markdown files.
   /\.md$/,
@@ -37,7 +37,7 @@ workbox.routing.registerRoute(
     ],
   })
 );
-*/
+
 
 workbox.routing.registerRoute(
   // Cache image files.

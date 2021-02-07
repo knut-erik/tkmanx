@@ -13,24 +13,26 @@ if ('serviceWorker' in navigator) {
 
 function populateHTML(url, divID, append){
 
-    var target = document.getElementById(divID);
+  var target = document.getElementById(divID);
+  
+    $.ajax({
+      url: url,
+      type: "GET",
+      dataType: "text",
+      success: function (results) {
 
-        var result = false;
-        $.get(url).done(function(awesome_data){
-            result = awesome_data;
+          //Convert the MD file which is the result, to HTML
+          var html = converter.makeHtml(results);
 
-            if(result){
-                  //Convert the MD file which is the result, to HTML
-                  var html = converter.makeHtml(result);
-
-                  if(append){
-                    target.innerHTML = target.innerHTML + html;
-                  }else {
-                    target.innerHTML = html;
-                  }
-                  //console.log(html);
-            }
-        });
+          if(append){
+            target.innerHTML = target.innerHTML + html;
+          }else {
+            target.innerHTML = html;
+          }
+          //console.log(html);
+      },
+      async: false
+    });
 
 
 }
