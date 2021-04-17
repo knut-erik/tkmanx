@@ -51,7 +51,7 @@ function populateLinks() {
 
 function populateHR() {
   //populateHTML("/md/2021_paamelding.md","main-content", false);
-  populateHTML("/md/2021_hr.md","main-content", false);
+  populateHTML("/md/2022_hr.md","main-content", false);
   //populateHTML("/md/2021_betingelser.md","main-content",true);
   
 
