@@ -5,9 +5,9 @@
 2) **Forsikring:** Det anbefales å tegne reise- og avbestillingsforsikring, da dette er eneste måte å få refundert betalt beløp etter gitte frister i neste punkt.
 
 3) **Avbestilling:** Avbestillingsomkostninger avregnes etter følgende satser, forutsatt at turen blir gjennomført som planlagt:
-- Innen 24.06.21: Depositum vil ikke bli tilbakebetalt.
-- Fra 25.06.21 til og med 25.07.21: 50% av reisens totale pris
-- Fra 26.07.21 og til avreise: 100% av reisens totale pris.
+- Innen 23.06.22: Depositum vil ikke bli tilbakebetalt.
+- Fra 23.06.22 til og med 22.07.22: 50% av reisens totale pris
+- Fra 23.07.22 og til avreise: 100% av reisens totale pris.
 - Avbestillingsomkostninger belastes uavhengig av årsaken til avbestillingen, forutsatt at turen blir gjennomført.
 - Det anbefales på det sterkeste å sjekke at du evt. har avbestillingsforsikring.
 
