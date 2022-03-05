@@ -1,6 +1,6 @@
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.1.0/workbox-sw.js');
 
-let version = "03062021-1100";
+let version = "05032022-2200";
 
 if (workbox) {
   console.log(`Workbox is loaded`);
